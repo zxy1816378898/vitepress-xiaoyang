@@ -14,7 +14,7 @@ hero:
     text: Stay foolish, Stay hungry.
     tagline: /羽毛球青年/人间清醒/音乐控/
     image:
-        src: /avatar.png
+        src: /2.png
         alt: avatar
     actions:
     - theme: brand

@@ -29,11 +29,10 @@ export default defineConfig({
   // },
 
   themeConfig: {
-    logo: '/avatar.png',
+    logo: '/2.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: nav,
     sidebar: sidebar,
-
     search: {
       provider: 'local'
     },
