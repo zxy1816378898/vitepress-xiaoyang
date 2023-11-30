@@ -1,31 +1,62 @@
-import { DefaultTheme } from 'vitepress';
+import { DefaultTheme } from "vitepress";
 export const sidebar: DefaultTheme.Sidebar = {
-  '/column/Algorithm/': [
-    {
-      text: '栈和队列',
-      items: [
+    "/column/JavaScript/": [
         {
-          text: '栈-深拷贝和浅拷贝',
-          link: '/column/Algorithm/001_Stack'
+            text: "JavaScript",
+            items: [
+                {
+                    text: "数据类型",
+                    link: "/column/JavaScript/001_DataType",
+                },
+                {
+                    text: "ES6",
+                    link: "/column/JavaScript/002_Es6",
+                },
+            ],
         },
+    ],
+    "/column/Vue3/": [
         {
-          text: '队列-事件循环',
-          link: '/column/Algorithm/002_Queue'
-        }
-      ]
-    },
-    {
-      text: '字典和树',
-      items: [
-        {
-          text: '字典和集合-Set和Map',
-          link: '/column/Algorithm/003_Dictionary'
+            text: "Vue3",
+            items: [
+                {
+                    text: "Vue3",
+                    link: "/column/Vue3/001_Vue3",
+                },
+            ],
         },
+    ],
+    "/column/Node/": [
         {
-          text: '树-深/广度优先遍历',
-          link: '/column/Algorithm/004_Tree'
-        }
-      ]
-    }
-  ]
+            text: "Node",
+            items: [
+                {
+                    text: "Node",
+                    link: "/column/Node/001_Node",
+                },
+            ],
+        },
+    ],
+    "/column/Webpack/": [
+        {
+            text: "Webpack",
+            items: [
+                {
+                    text: "Webpack",
+                    link: "/column/Webpack/001_Webpack",
+                },
+            ],
+        },
+    ],
+    "/column/Browser/": [
+        {
+            text: "浏览器",
+            items: [
+                {
+                    text: "浏览器",
+                    link: "/column/Browser/001_Browser",
+                },
+            ],
+        },
+    ],
 };

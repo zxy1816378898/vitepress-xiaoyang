@@ -14,7 +14,7 @@ hero:
     text: Stay foolish, Stay hungry.
     tagline: /羽毛球青年/人间清醒/音乐控/
     image:
-        src: /2.png
+        src: /head_portrait.png
         alt: avatar
     actions:
     - theme: brand
@@ -36,5 +36,3 @@ features:
     details: 钟爱下雨天听Jay和睡觉。
 ---
 <!-- 自定义组件 -->
-
-

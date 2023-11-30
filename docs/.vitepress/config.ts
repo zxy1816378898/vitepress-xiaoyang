@@ -4,7 +4,7 @@ import { sidebar, nav } from './relaConf';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/vitepress-xiaoyang/',
-  title: 'XiaoYan\'s Blog',
+  title: 'XiaoYang\'s Blog',
   description: 'A VitePress Site',
 
   // 配置markdown写作风格
@@ -29,8 +29,7 @@ export default defineConfig({
   // },
 
   themeConfig: {
-    logo: '/2.png',
-    // https://vitepress.dev/reference/default-theme-config
+    logo: '/head_portrait.png',
     nav: nav,
     sidebar: sidebar,
     search: {
