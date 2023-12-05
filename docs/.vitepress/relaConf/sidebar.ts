@@ -15,46 +15,26 @@ export const sidebar: DefaultTheme.Sidebar = {
             ],
         },
     ],
-    "/column/Vue3/": [
+    "/column/Java/": [
         {
-            text: "Vue3",
+            text: "目录",
             items: [
                 {
-                    text: "Vue3",
-                    link: "/column/Vue3/001_Vue3",
-                },
-            ],
-        },
-    ],
-    "/column/Node/": [
-        {
-            text: "Node",
-            items: [
-                {
-                    text: "Node",
-                    link: "/column/Node/001_Node",
-                },
-            ],
-        },
-    ],
-    "/column/Webpack/": [
-        {
-            text: "Webpack",
-            items: [
-                {
-                    text: "Webpack",
-                    link: "/column/Webpack/001_Webpack",
-                },
-            ],
-        },
-    ],
-    "/column/Browser/": [
-        {
-            text: "浏览器",
-            items: [
-                {
-                    text: "浏览器",
-                    link: "/column/Browser/001_Browser",
+                    text: "Java程序基础",
+                    items: [
+                        {
+                            text: "Java程序基本结构",
+                            link: "/column/Java/001_Java程序基本结构",
+                        },
+                        {
+                            text: "Java程序的基本语法",
+                            link: "/column/Java/002_Java变量和数据类型",
+                        },
+                        {
+                            text: "Java程序的基本语法",
+                            link: "/column/Java/003_Java程序的基本语法",
+                        },
+                    ],
                 },
             ],
         },

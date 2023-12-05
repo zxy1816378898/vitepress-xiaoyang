@@ -19,27 +19,15 @@ export const nav: DefaultTheme.NavItem[] = [
         ],
     },
     {
-        text: "前端开发",
+        text: "全栈学习",
         items: [
+            {
+                text: "Java",
+                link: "/column/Java/001_Java程序基本结构",
+            },
             {
                 text: "JavaScript",
                 link: "/column/JavaScript/001_DataType",
-            },
-            {
-                text: "Vue3",
-                link: "/column/Vue3/001_Vue3",
-            },
-            {
-                text: "Node",
-                link: "/column/Node/001_Node",
-            },
-            {
-                text: "Webpack",
-                link: "/column/Webpack/001_Webpack",
-            },
-            {
-                text: "浏览器",
-                link: "/column/Browser/001_Browser",
             },
         ],
     },
