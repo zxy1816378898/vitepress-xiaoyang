@@ -27,12 +27,12 @@ export const sidebar: DefaultTheme.Sidebar = {
                             link: "/column/Java/001_Java程序基本结构",
                         },
                         {
-                            text: "Java程序的基本语法",
+                            text: "Java变量和数据类型",
                             link: "/column/Java/002_Java变量和数据类型",
                         },
                         {
-                            text: "Java程序的基本语法",
-                            link: "/column/Java/003_Java程序的基本语法",
+                            text: "Java整数运算",
+                            link: "/column/Java/003_Java整数运算",
                         },
                     ],
                 },
