@@ -34,6 +34,10 @@ export const sidebar: DefaultTheme.Sidebar = {
                             text: "Java整数运算",
                             link: "/column/Java/003_Java整数运算",
                         },
+                        {
+                            text: "Java浮点数运算",
+                            link: "/column/Java/004_Java浮点数运算",
+                        },
                     ],
                 },
             ],
