@@ -42,7 +42,15 @@ export const sidebar: DefaultTheme.Sidebar = {
                             text: "Java布尔运算",
                             link: "/column/Java/005_Java布尔运算",
                         },
+                        {
+                            text: "Java字符和字符串",
+                            link: "/column/Java/006_Java字符和字符串",
+                        },
                     ],
+                },
+                {
+                    text: "流程控制",
+                    items: [],
                 },
             ],
         },
