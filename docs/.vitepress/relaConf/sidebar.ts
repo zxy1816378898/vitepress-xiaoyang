@@ -50,6 +50,14 @@ export const sidebar: DefaultTheme.Sidebar = {
                             text: "Java数组类型",
                             link: "/column/Java/007_Java数组类型",
                         },
+                        {
+                            text: "008_Java输入和输出",
+                            link: "/column/Java/008_Java输入和输出",
+                        },
+                        {
+                            text: "Java If判断",
+                            link: "/column/Java/009_Java If判断",
+                        },
                     ],
                 },
                 {
