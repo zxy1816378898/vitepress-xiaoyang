@@ -46,6 +46,10 @@ export const sidebar: DefaultTheme.Sidebar = {
                             text: "Java字符和字符串",
                             link: "/column/Java/006_Java字符和字符串",
                         },
+                        {
+                            text: "Java数组类型",
+                            link: "/column/Java/007_Java数组类型",
+                        },
                     ],
                 },
                 {
