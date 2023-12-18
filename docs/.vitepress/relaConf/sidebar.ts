@@ -21,6 +21,7 @@ export const sidebar: DefaultTheme.Sidebar = {
             items: [
                 {
                     text: "Java程序基础",
+                    collapsed: true, //默认展开
                     items: [
                         {
                             text: "Java程序基本结构",
@@ -50,19 +51,25 @@ export const sidebar: DefaultTheme.Sidebar = {
                             text: "Java数组类型",
                             link: "/column/Java/007_Java数组类型",
                         },
+                    ],
+                },
+                {
+                    text: "流程控制",
+                    collapsed: true, //默认展开
+                    items: [
                         {
-                            text: "008_Java输入和输出",
+                            text: "Java输入和输出",
                             link: "/column/Java/008_Java输入和输出",
                         },
                         {
                             text: "Java If判断",
                             link: "/column/Java/009_Java If判断",
                         },
+                        {
+                            text: "Java Switch判断",
+                            link: "/column/Java/010_Java switch多重选择",
+                        },
                     ],
-                },
-                {
-                    text: "流程控制",
-                    items: [],
                 },
             ],
         },
