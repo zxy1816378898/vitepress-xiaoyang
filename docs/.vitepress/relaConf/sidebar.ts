@@ -77,6 +77,14 @@ export const sidebar: DefaultTheme.Sidebar = {
                             text: "Java do while循环",
                             link: "/column/Java/012_Java do while循环",
                         },
+                        {
+                            text: "Java for循环",
+                            link: "/column/Java/013_Java for循环",
+                        },
+                        {
+                            text: "Java break和continue",
+                            link: "/column/Java/014_Java break和continue",
+                        },
                     ],
                 },
             ],
