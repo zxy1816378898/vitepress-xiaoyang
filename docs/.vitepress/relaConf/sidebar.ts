@@ -69,6 +69,14 @@ export const sidebar: DefaultTheme.Sidebar = {
                             text: "Java Switch判断",
                             link: "/column/Java/010_Java switch多重选择",
                         },
+                        {
+                            text: "Java While循环",
+                            link: "/column/Java/011_Java while循环",
+                        },
+                        {
+                            text: "Java do while循环",
+                            link: "/column/Java/012_Java do while循环",
+                        },
                     ],
                 },
             ],
