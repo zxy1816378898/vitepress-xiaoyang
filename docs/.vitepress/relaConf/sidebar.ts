@@ -85,6 +85,10 @@ export const sidebar: DefaultTheme.Sidebar = {
                             text: "Java break和continue",
                             link: "/column/Java/014_Java break和continue",
                         },
+                        {
+                            text: "Java 遍历数组",
+                            link: "/column/Java/015_Java 遍历数组",
+                        },
                     ],
                 },
             ],
