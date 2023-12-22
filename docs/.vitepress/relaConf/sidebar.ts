@@ -89,6 +89,10 @@ export const sidebar: DefaultTheme.Sidebar = {
                             text: "Java 遍历数组",
                             link: "/column/Java/015_Java 遍历数组",
                         },
+                        {
+                            text: "Java 数组排序.md",
+                            link: "/column/Java/016_Java 数组排序.md",
+                        },
                     ],
                 },
             ],
