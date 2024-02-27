@@ -3,7 +3,7 @@ import { sidebar, nav } from "./relaConf";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    base: "/vitepress-xiaoyang/",
+    base: "/vitePress-project/",
     title: "XiaoYang's Blog",
     description: "A VitePress Site",
 
@@ -43,6 +43,5 @@ export default defineConfig({
         socialLinks: [
             { icon: "github", link: "https://github.com/vuejs/vitepress" },
         ],
-       
     },
 });
