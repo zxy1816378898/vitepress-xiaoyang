@@ -16,7 +16,7 @@ public class Main {
 }
 ```
 
-在<code>for</code> 循环执行前，会先执行初始化语句 <code>int i=1</code>，它定义了计数器变量 <code>i</code> 并赋初始值为 <code>1</code>，然后，循环前先检查循环条件 <code>i<=100</code>，循环后自动执行 <code>i++</code>，因此，和 <code>while</code> 循环相比，<code>for</code> 循环把更新计数器的代码统一放到了一起。在 <code>for</code> 循环的循环体内部，不需要去更新变量 <code>i</code>。
+在 <code>for</code> 循环执行前，会先执行初始化语句 <code>int i=1</code>，它定义了计数器变量 <code>i</code> 并赋初始值为 <code>1</code>，然后，循环前先检查循环条件 <code>i<=100</code>，循环后自动执行 <code>i++</code>，因此，和 <code>while</code> 循环相比，<code>for</code> 循环把更新计数器的代码统一放到了一起。在 <code>for</code> 循环的循环体内部，不需要去更新变量 <code>i</code>。
 
 因此，<code>for</code> 循环的用法是：
 
@@ -40,12 +40,11 @@ public class Main {
         System.out.println("sum = " + sum);
     }
 }
-
 ```
 
-上面代码的循环条件是<code>i< ns.length</code>。 因为 <code>ns</code> 数组的长度是 <code>5</code>，因此，当循环 <code>5</code> 次后，<code>i</code> 的值被更新为 <code>5</code>，就不满足循环条件，因此 <code>for</code> 循环结束。
+上面代码的循环条件是 <code>i< ns.length</code>。 因为 <code>ns</code> 数组的长度是 <code>5</code>，因此，当循环 <code>5</code> 次后，<code>i</code> 的值被更新为 <code>5</code>，就不满足循环条件，因此 <code>for</code> 循环结束。
 
-<font style="color: var(--vp-c-brand);>思考：如果把循环条件改为 i<=ns.length，会出现什么问题？</font>
+<font style="color: var(--vp-c-brand);">思考:如果把循环条件改为 i 小于或等于 ns.length 会出现什么问题?</font>
 
 注意 <code>for</code> 循环的初始化计数器总是会被执行，并且 <code>for</code> 循环也可能循环 <code>0</code> 次。
 
@@ -154,7 +153,7 @@ public class Main {
 
 和 <code>for</code> 循环相比，<code>for each</code> 循环的变量 <code>n</code> 不再是计数器，而是直接对应到数组的每个元素。<code>for each</code> 循环的写法也更简洁。但是，<code>for each</code> 循环无法指定遍历顺序，也无法获取数组的索引。
 
-除了数组外，<code>for each</code> 循环能够遍历所有“可迭代”的数据类型，包括后面会介绍的<code>List</code>、<code>Map</code> 等。
+除了数组外，<code>for each</code> 循环能够遍历所有“可迭代”的数据类型，包括后面会介绍的 <code>List</code>、<code>Map</code> 等。
 
 ### 小结
 
