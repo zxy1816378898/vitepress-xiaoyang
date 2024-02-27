@@ -3,7 +3,7 @@ import { sidebar, nav } from "./relaConf";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    base: "/vitePress-project/",
+    base: "./",
     title: "XiaoYang's Blog",
     description: "A VitePress Site",
 
